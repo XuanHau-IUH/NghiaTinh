@@ -136,7 +136,7 @@ function App() {
     { id: 'story', label: 'Câu Chuyện Tình Yêu' },
     { id: 'wedding', label: 'Hôn lễ' },
     { id: 'gallery', label: 'Khoảnh Khắc Đẹp' },
-    { id: 'rsvp', label: 'RSVP' }
+    { id: 'rsvp', label: 'Lời nhắn hạnh phúc' }
   ];
 
   return (

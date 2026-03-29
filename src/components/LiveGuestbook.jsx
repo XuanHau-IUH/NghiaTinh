@@ -49,12 +49,12 @@ useEffect(() => {
             className="w-60 flex flex-col gap-2"
           >
             {/* Nhãn nhỏ phía trên */}
-            <div className="flex items-center gap-2 mb-1 ml-2">
-              <span className="relative flex h-1.5 w-1.5">
+            <div className="flex items-center justify-start gap-3 mb-6">
+              <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-rose-500"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-rose-500"></span>
               </span>
-              <span className="text-[9px] uppercase tracking-[0.2em] font-bold text-rose-600/60">Live Wishes</span>
+              <span className="text-lg uppercase tracking-[0.3em] font-bold text-rose-500 whitespace-nowrap">Gửi Yêu Thương</span>
             </div>
 
             <AnimatePresence mode="popLayout">
@@ -68,13 +68,13 @@ useEffect(() => {
                   className="bg-white/15 backdrop-blur-[4px] border border-white/20 p-2.5 rounded-xl shadow-sm flex items-start gap-2.5 origin-left"
                 >
                   <div className="bg-rose-100/30 p-1.5 rounded-full flex-shrink-0 mt-0.5">
-                    <Heart size={10} className="text-rose-400/80" fill="currentColor" />
+                    <Heart size={14} className="text-rose-400/80" fill="currentColor" />
                   </div>
                   <div className="overflow-hidden">
-                    <p className="text-[9px] font-bold text-rose-500/70 uppercase tracking-wider truncate">
+                    <p className="text-[18px] font-bold text-rose-500/70 uppercase tracking-wider truncate">
                       {msg.user}
                     </p>
-                    <p className="text-[11px] text-zinc-600/90 font-serif italic leading-tight line-clamp-2">
+                    <p className="text-[12px] text-zinc-600/90 font-serif italic leading-tight line-clamp-2">
                       "{msg.text}"
                     </p>
                   </div>
