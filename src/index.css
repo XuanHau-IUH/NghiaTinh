@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Giữ lại font chữ và cài đặt cơ bản */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+  background-color: #F9F7F2;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; /* Font cho văn bản thông thường */
+}
+
+h1, h2, h3, .font-serif {
+  font-family: 'Playfair Display', serif; /* Font cho tiêu đề, nghệ thuật */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* Offset cho scroll để không bị Header che mất tiêu đề */
+section {
+  scroll-margin-top: 80px; 
+}
