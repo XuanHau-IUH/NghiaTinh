@@ -133,9 +133,9 @@ function App() {
   };
 
   const navLinks = [
-    { id: 'story', label: 'Our Story' },
-    { id: 'wedding', label: 'The Wedding' },
-    { id: 'gallery', label: 'Gallery' },
+    { id: 'story', label: 'Câu Chuyện Tình Yêu' },
+    { id: 'wedding', label: 'Hôn lễ' },
+    { id: 'gallery', label: 'Khoảnh Khắc Đẹp' },
     { id: 'rsvp', label: 'RSVP' }
   ];
 
