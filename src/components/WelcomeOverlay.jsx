@@ -13,11 +13,12 @@ const WelcomeOverlay = ({ onStart }) => {
          <motion.h1 
            initial={{ y: 20 }} 
            animate={{ y: 0 }}
+           className="text-4xl font-bold"
          >
-           Gia Huy & Mỹ Linh
+           Phong Nghĩa & Ái Tình
          </motion.h1>
-         <button onClick={onStart} className="mt-10 border p-4">
-           Khám phá lễ cưới
+         <button onClick={onStart} className="mt-10 border p-4 text-xl font-semibold">
+           Mở thiệp ngay nào!
          </button>
       </div>
     </motion.div>

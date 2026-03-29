@@ -48,7 +48,7 @@ export const Gallery = () => {
         {/* --- PHẦN 2: SLIDE 3 ẢNH POLAROID --- */}
         <div className="text-center mb-10">
           <span className="font-sans text-[10px] uppercase tracking-[0.3em] text-[#37656B]">Album</span>
-          <h2 className="text-3xl md:text-4xl font-serif italic text-[#7B5455] mt-2 text-center">Trình Chiếu Kỷ Niệm</h2>
+          <h2 className="text-3xl md:text-4xl font-serif italic text-[#7B5455] mt-2 text-center">Hẹn Ước Trăm Năm</h2>
         </div>
 
         <motion.div 
@@ -100,7 +100,7 @@ export const Gallery = () => {
                   </div>
                   <div className="mt-4 text-center">
                     <p className="font-serif italic text-rose-400 text-lg md:text-2xl">Always & Forever</p>
-                    <p className="text-[10px] uppercase tracking-widest text-zinc-400 mt-2">G & M — 2024</p>
+                    <p className="text-[10px] uppercase tracking-widest text-zinc-400 mt-2">Tình & Nghĩa — 2026</p>
                   </div>
                 </div>
               </SwiperSlide>

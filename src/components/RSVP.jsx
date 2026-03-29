@@ -88,7 +88,7 @@ export const RSVP = ({ onSendMessage }) => {
               
               <h3 className="text-2xl font-serif italic text-[#7B5455] mt-4 mb-2">Cảm ơn bạn rất nhiều!</h3>
               <p className="text-zinc-500 text-sm font-sans leading-relaxed mb-6">
-                Lời chúc của bạn đã được gửi tới Sophie & Julian. Hẹn gặp bạn trong ngày chung vui nhé! ❤️
+                Lời chúc của bạn đã được gửi tới Ái Tình & Phong Nghĩa. Hẹn gặp bạn trong ngày chung vui nhé! ❤️
               </p>
               
               <button 
@@ -112,7 +112,7 @@ export const RSVP = ({ onSendMessage }) => {
           <Heart className="absolute -top-4 -right-4 text-rose-100" size={100} fill="currentColor" />
 
           <div className="text-center mb-10">
-            <h2 className="text-4xl md:text-5xl font-serif italic text-[#7B5455] mb-4">Sophie & Julian</h2>
+            <h2 className="text-3xl md:text-5xl font-serif italic text-[#7B5455] mb-4">Ái Tình & Phong Nghĩa</h2>
             <p className="font-sans text-[10px] uppercase tracking-[0.3em] text-[#37656B] mb-6">Xác Nhận Tham Dự</p>
             <div className="h-px w-20 bg-rose-200 mx-auto mb-6"></div>
             <p className="text-zinc-500 font-serif italic text-lg leading-relaxed px-4">

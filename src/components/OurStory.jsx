@@ -11,8 +11,8 @@ export const OurStory = () => {
     <section id="story" className="py-32 bg-white">
       <div className="max-w-5xl mx-auto px-8">
         <div className="text-center mb-24">
-          <span className="font-sans text-[#37656B] uppercase tracking-[0.3em] text-xs mb-4 block">The Journey</span>
-          <h2 className="text-5xl font-serif italic text-[#7B5455]">Our Story</h2>
+          <span className="font-sans text-[#37656B] uppercase tracking-[0.3em] text-xs mb-4 block">Hành Trình Yêu Thương</span>
+          <h2 className="text-4xl font-serif italic text-[#7B5455]">Câu Chuyện Tình Yêu</h2>
         </div>
         <div className="space-y-32">
           {stories.map((item, index) => (

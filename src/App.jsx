@@ -105,7 +105,7 @@ function App() {
 
   // --- 6. LOGIC ĐẾM NGƯỢC ---
   useEffect(() => {
-    const targetDate = new Date("2024-12-20T18:00:00").getTime(); 
+    const targetDate = new Date("2026-04-17T11:00:00").getTime(); 
     const interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = targetDate - now;
@@ -156,7 +156,7 @@ function App() {
 
           <header className="fixed top-0 w-full z-50 bg-white/20 backdrop-blur-md border-b border-white/10 flex justify-between items-center px-8 h-20">
             <Menu className="text-rose-400/70 cursor-pointer md:hidden" />
-            <div className="text-2xl md:text-3xl font-serif text-rose-400 tracking-[0.2em] italic">S & J</div>
+            <div className="text-2xl md:text-3xl font-serif text-rose-400 tracking-[0.2em] italic">T & N</div>
             <div className="flex items-center gap-6">
               <nav className="hidden md:flex gap-10 font-sans text-[10px] uppercase tracking-[0.3em]">
                 {navLinks.map((link) => (
@@ -177,14 +177,15 @@ function App() {
             <section id="hero" className="relative min-h-[80vh] flex flex-col items-center justify-center px-8 overflow-hidden">
                <div className="absolute inset-0 z-0 bg-gradient-to-b from-[#ffdad9]/30 to-[#fbf9f9]"></div>
                <div className="relative z-10 text-center max-w-4xl">
-                 <span className="font-sans text-[#37656B] uppercase tracking-[0.3em] text-xs mb-6 block">Save the Date</span>
-                 <h1 className="text-6xl md:text-8xl italic text-[#7B5455] mb-8 leading-tight">Sophie & Julian</h1>
+                 <span className="font-sans text-[#37656B] uppercase tracking-[0.3em] text-xs mb-6 block">Thiệp cưới</span>
+                 <h1 className="text-4xl md:text-7xl italic text-[#7B5455] mb-8 leading-tight">Ái Tình & Phong Nghĩa</h1>
                  <div className="flex flex-col md:flex-row items-center justify-center gap-12 mt-12">
                    <div className="relative w-72 h-96 rounded-full overflow-hidden shadow-2xl border-8 border-white">
                      <img className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=2069" alt="Couple"/>
                    </div>
                    <div className="max-w-xs text-left">
-                      <p className="text-2xl text-[#7B5455]">December 20, 2024</p>
+                      <p className="text-2xl text-[#7B5455]">Ngày 17 tháng 04 năm 2026</p>
+                      <p className="text-1xl text-[#7B5455]">Nhằm ngày 01 tháng 03 năm Bính Ngọ</p>
                       <p className="text-[#5D5F5F] text-sm mt-4 leading-relaxed font-sans">Hãy cùng chúng mình viết tiếp chương mới của câu chuyện tình yêu đầy màu sắc này.</p>
                    </div>
                  </div>
@@ -192,7 +193,7 @@ function App() {
             </section>
 
             <section className="py-24 bg-white text-center">
-                <h2 className="text-3xl italic text-[#7B5455] mb-12">The Celebration Begins In</h2>
+                <h2 className="text-3xl italic text-[#7B5455] mb-12">Đếm ngày chung vui</h2>
                 <div className="grid grid-cols-4 gap-4 max-w-2xl mx-auto px-4">
                     {Object.entries(timeLeft).map(([unit, val]) => (
                         <div key={unit}>
@@ -210,8 +211,8 @@ function App() {
           </div>
 
           <footer className="py-20 bg-rose-50/30 text-center">
-            <div className="italic text-rose-400 text-3xl mb-4">Sophie & Julian</div>
-            <p className="text-[10px] text-zinc-400 uppercase tracking-[0.2em]">With Love, 2024 — From Vietnam with Heart</p>
+            <div className="italic text-rose-400 text-3xl mb-4">Ái Tình & Phong Nghĩa</div>
+            <p className="text-[10px] text-zinc-400 uppercase tracking-[0.2em]">With Love, 2026 — From Vietnam with Heart</p>
           </footer>
         </motion.div>
       )}
